@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../static/css/Home.css">
+</head>
+<body>
+    <div class="theme-wrap">
+        <input type="radio" id="theme-default" name="theme" checked>
+        <input type="radio" id="theme-dark" name="theme">
+        <input type="radio" id="theme-sunset" name="theme">
+
+        <header class="navbar">
+            <a class="brand" href="#">Strat Page</a>
+            <nav class="nav-links">
+                <a href="#overview">Overview</a>
+                <a href="#features">Features</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="theme-panel" aria-label="Theme selector">
+                <label for="theme-default">Light</label>
+                <label for="theme-dark">Dark</label>
+                <label for="theme-sunset">Sunset</label>
+            </div>
+        </header>
+
+        <main class="content">
+            <section class="hero">
+                <h1>Welcome to Strat Page</h1>
+                <p>Use the theme controls in the navbar to switch the look of the page. The main visual theme is defined with editable CSS variables in the stylesheet.</p>
+            </section>
+
+            <section id="overview" class="section-card">
+                <h2>Overview</h2>
+                <p>This layout includes a floating, rounded navbar with soft glass styling and a simple theme selector.</p>
+            </section>
+
+            <section id="features" class="section-card">
+                <h2>Features</h2>
+                <ul>
+                    <li>Rounded, floating navbar</li>
+                    <li>Editable theme variables</li>
+                    <li>Responsive layout with smooth hover states</li>
+                </ul>
+            </section>
+
+            <section id="contact" class="section-card">
+                <h2>Contact</h2>
+                <p>Customize the theme colors in <code>static/css/Home.css</code> to make the page your own.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
