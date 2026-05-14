@@ -36,6 +36,8 @@ body {
     --accent-soft: rgba(56, 189, 248, 0.16);
     --border: rgba(148, 163, 184, 0.18);
     --shadow: 0 24px 50px rgba(0, 0, 0, 0.24);
+    --surface: rgba(66, 66, 66, 0.82); 
+    --surface-strong: rgba(15, 23, 42, 0.95);
 }
 
 .theme-wrap #theme-sunset:checked ~ * {
