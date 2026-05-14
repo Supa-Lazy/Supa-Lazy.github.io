@@ -50,9 +50,6 @@ body {
     --shadow: 0 24px 50px rgba(124, 58, 237, 0.1);
 }
 
-body {
-    margin: 0;
-}
 
 .theme-wrap input[type="radio"] {
     position: absolute;
