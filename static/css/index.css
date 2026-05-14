@@ -1,6 +1,5 @@
 ﻿:root {
-    /* --bg: #f4f7ff; */
-    --bg: #424242;
+    --bg: #f4f7ff;
     --surface: rgba(255, 255, 255, 0.82);
     --surface-strong: rgba(255, 255, 255, 0.95);
     --text: #111827;
@@ -27,7 +26,7 @@ body {
     color: var(--text);
 }
 
-.theme-wrap #theme-dark:checked ~ * {
+#theme-dark:checked ~ .theme-wrap {
     --bg: #0f172a;
     --surface: rgba(15, 23, 42, 0.82);
     --surface-strong: rgba(15, 23, 42, 0.95);
@@ -41,7 +40,7 @@ body {
     --surface-strong: rgba(15, 23, 42, 0.95);
 }
 
-.theme-wrap #theme-sunset:checked ~ * {
+#theme-sunset:checked ~ .theme-wrap {
     --bg: #fff7ed;
     --surface: rgba(255, 248, 240, 0.9);
     --surface-strong: rgba(255, 248, 240, 1);
