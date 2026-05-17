@@ -1,6 +1,15 @@
-#info{
-    position: relative;
-    right: 40 px;
+#video{
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+}
+#teams{
+    float: right;
+    width: 100%;
+    min-height: 100vh;
+}
+#data{
+    float: right;
     width: 100%;
     min-height: 100vh;
 }
