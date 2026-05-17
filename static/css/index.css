@@ -53,7 +53,7 @@ body {
 }
 
 
-.theme-wrap input[type="radio"] {
+input[type="radio"] {
     position: absolute;
     left: -9999px;
 }
@@ -127,9 +127,9 @@ body {
     background: var(--surface-strong);
 }
 
-#theme-default:checked ~ .navbar .theme-panel label[for="theme-default"],
-#theme-dark:checked ~ .navbar .theme-panel label[for="theme-dark"],
-#theme-sunset:checked ~ .navbar .theme-panel label[for="theme-sunset"] {
+#theme-default:checked ~ .theme-wrap .navbar .theme-panel label[for="theme-default"],
+#theme-dark:checked ~ .theme-wrap .navbar .theme-panel label[for="theme-dark"],
+#theme-sunset:checked ~ .theme-wrap .navbar .theme-panel label[for="theme-sunset"] {
     background: var(--accent);
     color: #ffffff;
 }
